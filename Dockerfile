@@ -5,5 +5,4 @@ RUN apk add --no-cache\
         git py-pip && \
 
     pip install --no-cache-dir \
-        blockchain \
         git+https://github.com/cryptoproofinfo/pycoin.git
