@@ -9,6 +9,3 @@ RUN apk add --no-cache git py-setuptools && \
     cd && \
     rm -rf pycoin && \
     apk del git
-
-#    pip install --no-cache-dir \
-#        git+https://github.com/cryptoproofinfo/pycoin.git
